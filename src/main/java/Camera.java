@@ -9,7 +9,7 @@ public abstract class Camera {
         this.mirrorOps = mirrorOps;
     }
 
-    public void takePhotograph(double shutterSpeed) {
+    public void takePhotograph(Double shutterSpeed) {
         Logger.getInstance().log(getName() + " is taking a photograph!");
 
         //ENAGAGING THIS CAMERA'S PHOTOGRAPH TAKING PROCESS
